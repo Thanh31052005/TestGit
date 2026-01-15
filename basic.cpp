@@ -5,13 +5,11 @@ int main()
 {
     printf("Hello World");
     int a, b;
-    printf("\nNhap vao a: ");
+    printf("Nhap vao a: ");
     scanf("%d", &a);
-    printf("So a: %d", a);
-    printf("\nNhap vao b: ");
+    printf("Nhap vao b: ");
     scanf("%d", &b);
-    printf("So a: %d", b);
-    printf("\nTong 2 so: %d", a + b);
+    printf("\nHieu 2 so: %d", a - b);
     getch();
     return 0;
 }
